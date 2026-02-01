@@ -6,7 +6,7 @@ import streamlit as st
 sns.set(style="whitegrid")
 
 # LOAD DATA
-hour_df = pd.read_csv("hour_clean.csv")
+hour_df = pd.read_csv("dashboard/hour_clean.csv")
 hour_df["date"] = pd.to_datetime(hour_df["date"])
 
 # SIDEBAR
